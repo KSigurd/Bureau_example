@@ -21,7 +21,7 @@ class Program
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
             {
-                System.Console.WriteLine("Tömmer byrån på " + contents);
+                System.Console.WriteLine("Tömmer byrån på innehållet" + contents);
                 contents = "";
             }
             else
